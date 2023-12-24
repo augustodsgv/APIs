@@ -11,14 +11,14 @@ There are tree main methods:
 In a world of distribuited micro services, running something in \
 your own machine may seem out of dated, but you still can!
 You should problably use some envelope so pip don't make a\
-mess in your computer
-```pip install virtualenv```
-```virtualenv env```
-```source ./env/bin/activate```
-You are now running inside a isolated envelope.
-Proceed to download the dependencies
-```pip install -r requirements.txt```
-Finally, you can run your very own API
+mess in your computer\
+```pip install virtualenv```\
+```virtualenv env```\
+```source ./env/bin/activate```\
+You are now running inside a isolated envelope.\
+Proceed to download the dependencies\
+```pip install -r requirements.txt```\
+Finally, you can run your very own API\
 ```uvicorn main:app```
 
 

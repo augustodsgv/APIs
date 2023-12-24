@@ -1,0 +1,2 @@
+docker stop rock_paper_scissors
+docker rm rock_paper_scissors

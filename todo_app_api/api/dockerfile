@@ -1,0 +1,17 @@
+FROM python:3
+
+WORKDIR /home/api
+
+COPY ./task.py .
+
+COPY ./sql_querys.py .
+
+COPY ./main.py .
+
+COPY ./requirements.txt .
+
+RUN pip install -r requirements.txt
+
+EXPOSE 8000
+
+CMD uvicorn main:todo_api --host 0.0.0.0 --port 8000

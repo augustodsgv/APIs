@@ -14,7 +14,7 @@ async def shoot(user_weapon : str):
     game_key = {
         ('rock', 'rock'): 'Tie',
         ('rock', 'paper'): 'Lose',
-        ('rock', 'scissors'): 'Win',d
+        ('rock', 'scissors'): 'Win',
         ('paper', 'rock'): 'Win',
         ('paper', 'paper'): 'Tie',
         ('paper', 'scissors'): 'Lose',

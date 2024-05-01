@@ -1,0 +1,6 @@
+FROM postgres:latest
+
+COPY ./1_tables.sql /docker-entrypoint-initdb.d
+COPY ./2_populate.sql /docker-entrypoint-initdb.d
+
+EXPOSE 5432

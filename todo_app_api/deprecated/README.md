@@ -1,0 +1,1 @@
+These are classes that were no longer continued because we started using pydantic modules
